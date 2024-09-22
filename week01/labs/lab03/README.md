@@ -5,7 +5,7 @@
 1. Click the "Playground" icon at the top of the page
 1. Click the "Start Azure Sandbox" button
 1. Login to the Azure Sandbox using the provided instructions and credentials
-1. Follow along with the step-by-step instructions provided in the "Guide" tab for the lab
+1. Follow along with the step-by-step instructions provided in the "Guide" tab for the lab - see ![Week 01/Lab 03](../images/week01-lab03-guide.png)
 1. When creating the new Azure Function App and you are presented with the "Select a hosting option" screen, select "App Service"
 1. On the "Overiew" tab for the Function App, click the "Create with VS Code Desktop" button and follow along with the provided instructions to deploy function code for testing
     - Create a new folder in your local file system using `mkdir -p azure-func-demo`

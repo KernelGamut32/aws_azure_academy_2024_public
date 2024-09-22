@@ -5,7 +5,7 @@
 1. Click the "Playground" icon at the top of the page
 1. Click the "Start Azure Sandbox" button
 1. Login to the Azure Sandbox using the provided instructions and credentials
-1. Follow along with the step-by-step instructions provided in the "Guide" tab for the lab
+1. Follow along with the step-by-step instructions provided in the "Guide" tab for the lab - see ![Week 01/Lab 08](../images/week01-lab08-guide.png)
 1. Make note of the FQDN assigned to the MySQL instance
 1. After completion of regular lab, execute the following steps:
     - Navigate to the Resource Group
