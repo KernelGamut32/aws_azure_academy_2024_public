@@ -2,8 +2,11 @@
 
 1. Launch the A Cloud Guru lab using the link provided above
 1. Click "Start Lab" - feel free to listen to the provided introduction if you wish
-1. View the [Lab Diagram](https://labkeep-assets-production.s3.amazonaws.com/s6geowm939gkihz9hb7cc0ppedad?response-content-disposition=inline%3B%20filename%3D%22Create%20an%20S3%20bucket%20and%20VPC%20Endpoint.png%22%3B%20filename%2A%3DUTF-8%27%27Create%2520an%2520S3%2520bucket%2520and%2520VPC%2520Endpoint.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAVKPCGNLNZ3W63F6G%2F20240911%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240911T152046Z&X-Amz-Expires=11259&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLWVhc3QtMSJGMEQCICLIQLSf6jAzik26iSer6N4FMA1%2Bw6bY5hUa5dwW8jF4AiBBPbdpiy5vefMDMjIxsmw2GZlGlyJkvahQdiZVsd7nHSqMBAiO%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAMaDDM2NjA4MzQ2Nzk5NSIM4O1jZBXyYA%2BUimc2KuAD2dkb3Lyq3d7culCUSuCDxrCrSevaoywxYENlGsw%2BtQuYEmI9x%2FPkXOgbzzWAzy813%2BeuiYsSVuP2A0QGSnKx8aLaiaa%2BSY7%2B2%2B9QbcO%2BNc7Qt4DbQ6FnDlKvIcqAm95NwW59kz9i6%2BYQuirD1o%2FVOLI1hZo9UQAqKTaQri359kWomHqcakanzwG5UdFiV6oIpaJIts0lJbWORoA9AAhM2HQNfa3neLHBvUIFFXzbiyGQvKPJy7EMRl5hivvSQqMTLWWIOtSdHwTFGPcSjy3muzmg8O1sG28yRRhxy0McQhzcbKV5Z8TPa90dg19kwzGXUzi46koFr5S88xV%2FTFMdFerSyaqgpnJxubWE68new0SKnddHoKjWnhrdZSIHdk8EGSNNu2PpjcW%2Bz8Sr4jL9lgbPpTGmN%2BqDcKuswD%2BJwWZK7dM%2FNkosvp1Y2rmH2dMZM24KCvGe45cst%2Fv%2FWOYGeBsYzwzEzF%2FGf%2F%2F%2BCrGcIUDyM6asoYHIV9I2SwCSUsYAwLpydeIEtFhDTRtSygfmgZfkcyfSvlHCZ5d86lc77qI3TcizfNqTFpIwzwMovin0bqGid6nrXQ9yqdmKNGqJ3s01VOxBvhbmEK9RedhhJ61eC6JR5C%2FCva3jwSv4NSz1MOmZhrcGOqYByZX6VWqyl2BFMahgYAzKhtdwMygA4sywwiSXJ9kZDsxF9djqT%2B9hBGV0XBHHFs0IyoUNTFVgSsLz5USyfftBzuue7xyTCvtggPO7kPw7wV%2BFQ%2BE6cmobo1lFJ9sU8Yxc7A9xniV%2FsQ%2B6BrwhU%2BWwqPpRGycEfb%2FTyk%2BNCdXjRonPwCQ%2BvuDbxFzc3luejz3KO0jQf9De9xsietINYbAdFeyYV32wnw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=aba1b2b86f58d2ce5bfb9c31a1ea03392c7b42b8a28f86fbd90f43cbff527571) for a visual of what we will be building in this lab
-1. Follow along with the step-by-step instructions provided in the "Guide" tab for the lab
+1. View the Lab Diagram for a visual of what we will be building in this lab
+
+![Lab Diagram](../images/week01-lab04-diagram.png)
+
+4. Follow along with the step-by-step instructions provided in the "Guide" tab for the lab
 1. After completing the lab steps, delete the endpoint created in the earlier steps and try accessing the s3 bucket list again (using `aws s3 ls`); the terminal will not return results now because the access route between the private EC2 instance and S3 has been severed
 1. Use `Ctrl + C` to cancel the `aws s3 ls` execution
 1. In the terminal, use `exit` to logout of the private instance and use `exit` again to logout of the public instance
